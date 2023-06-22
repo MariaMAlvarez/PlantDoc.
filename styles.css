@@ -1,0 +1,162 @@
+body {
+    background-color: #354240 ;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1C2322;
+  padding: 10px;
+  }
+  
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .logo {
+    height: 90px;
+  }
+  
+  .logo img {
+    height: 100%;
+    width: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #999;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  #image-carousel {
+    margin-top: 30px;
+  }
+  
+  .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .carousel a {
+    margin: 10px;
+  }
+  
+  .carousel img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+div div a img{
+    border-radius: 10%;
+}
+
+
+
+
+
+
+/* creators about */
+#creators-section {
+    padding: 20px;
+}
+  
+.author {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 10%; /* Adjust the value as needed */
+}
+  
+.author h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.author p {
+    margin: 15px 0;
+}
+
+.author a {
+    color: white;
+    text-decoration: none;
+}
+
+.author a:hover {
+    color: #999;
+}
+
+
+
+/* indicidual plants */
+
+#image-section {
+    margin-top: 20px;
+  }
+  
+  #image-section img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+  }
+  
+  #image-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  #image-section p {
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 60%;
+    margin-left: 20%;
+  }
+
