@@ -23,7 +23,7 @@ body {
   }
   
   .logo {
-    height: 90px;
+    height: 100px;
   }
   
   .logo img {
@@ -47,6 +47,7 @@ body {
   nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: large;
   }
   
   nav ul li a:hover {
@@ -97,7 +98,9 @@ div div a img{
 }
 
 
-
+.justify {
+    text-align: justify;
+}
 
 
 
@@ -107,8 +110,8 @@ div div a img{
 }
   
 .author {
-    display: inline-block;
-    width: 30%;
+    display: block;
+    width: 100%;
     text-align: center;
     margin-bottom: 30px;
     margin-right: 10%; /* Adjust the value as needed */
@@ -121,6 +124,8 @@ div div a img{
 
 .author p {
     margin: 15px 0;
+    line-height: 1.5; /* Adjust the value as desired */
+    font-size: large;
 }
 
 .author a {
@@ -167,4 +172,18 @@ div div a img{
 
   #about-model-section img {
     width: 80%;
+  }
+
+  #about-app-section p {
+    line-height: 1.5; /* Adjust the value as desired */
+    font-size: large;
+  }
+
+  #about-app-section img {
+    width: 80%;
+  }
+
+  #welcome-section p {
+    line-height: 1.5; /* Adjust the value as desired */
+    font-size: large;
   }
